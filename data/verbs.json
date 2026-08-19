@@ -1,0 +1,297 @@
+﻿[
+    {
+        "v1":  "be",
+        "v2":  "was / were",
+        "tr":  "olmak"
+    },
+    {
+        "v1":  "become",
+        "v2":  "became",
+        "tr":  "olmak / haline gelmek"
+    },
+    {
+        "v1":  "begin",
+        "v2":  "began",
+        "tr":  "başlamak"
+    },
+    {
+        "v1":  "break",
+        "v2":  "broke",
+        "tr":  "kırmak"
+    },
+    {
+        "v1":  "bring",
+        "v2":  "brought",
+        "tr":  "getirmek"
+    },
+    {
+        "v1":  "build",
+        "v2":  "built",
+        "tr":  "inşa etmek"
+    },
+    {
+        "v1":  "buy",
+        "v2":  "bought",
+        "tr":  "satın almak"
+    },
+    {
+        "v1":  "catch",
+        "v2":  "caught",
+        "tr":  "yakalamak"
+    },
+    {
+        "v1":  "choose",
+        "v2":  "chose",
+        "tr":  "seçmek"
+    },
+    {
+        "v1":  "come",
+        "v2":  "came",
+        "tr":  "gelmek"
+    },
+    {
+        "v1":  "do",
+        "v2":  "did",
+        "tr":  "yapmak"
+    },
+    {
+        "v1":  "draw",
+        "v2":  "drew",
+        "tr":  "çizmek"
+    },
+    {
+        "v1":  "drink",
+        "v2":  "drank",
+        "tr":  "içmek"
+    },
+    {
+        "v1":  "drive",
+        "v2":  "drove",
+        "tr":  "sürmek"
+    },
+    {
+        "v1":  "eat",
+        "v2":  "ate",
+        "tr":  "yemek"
+    },
+    {
+        "v1":  "fall",
+        "v2":  "fell",
+        "tr":  "düşmek"
+    },
+    {
+        "v1":  "feel",
+        "v2":  "felt",
+        "tr":  "hissetmek"
+    },
+    {
+        "v1":  "find",
+        "v2":  "found",
+        "tr":  "bulmak"
+    },
+    {
+        "v1":  "fly",
+        "v2":  "flew",
+        "tr":  "uçmak"
+    },
+    {
+        "v1":  "forget",
+        "v2":  "forgot",
+        "tr":  "unutmak"
+    },
+    {
+        "v1":  "get",
+        "v2":  "got",
+        "tr":  "almak / elde etmek"
+    },
+    {
+        "v1":  "give",
+        "v2":  "gave",
+        "tr":  "vermek"
+    },
+    {
+        "v1":  "go",
+        "v2":  "went",
+        "tr":  "gitmek"
+    },
+    {
+        "v1":  "grow",
+        "v2":  "grew",
+        "tr":  "büyümek / yetiştirmek"
+    },
+    {
+        "v1":  "have",
+        "v2":  "had",
+        "tr":  "sahip olmak"
+    },
+    {
+        "v1":  "hear",
+        "v2":  "heard",
+        "tr":  "duymak"
+    },
+    {
+        "v1":  "hold",
+        "v2":  "held",
+        "tr":  "tutmak"
+    },
+    {
+        "v1":  "keep",
+        "v2":  "kept",
+        "tr":  "saklamak / tutmak"
+    },
+    {
+        "v1":  "know",
+        "v2":  "knew",
+        "tr":  "bilmek"
+    },
+    {
+        "v1":  "leave",
+        "v2":  "left",
+        "tr":  "ayrılmak"
+    },
+    {
+        "v1":  "lose",
+        "v2":  "lost",
+        "tr":  "kaybetmek"
+    },
+    {
+        "v1":  "make",
+        "v2":  "made",
+        "tr":  "yapmak / üretmek"
+    },
+    {
+        "v1":  "meet",
+        "v2":  "met",
+        "tr":  "buluşmak"
+    },
+    {
+        "v1":  "pay",
+        "v2":  "paid",
+        "tr":  "ödemek"
+    },
+    {
+        "v1":  "put",
+        "v2":  "put",
+        "tr":  "koymak"
+    },
+    {
+        "v1":  "read",
+        "v2":  "read",
+        "tr":  "okumak"
+    },
+    {
+        "v1":  "ride",
+        "v2":  "rode",
+        "tr":  "binmek"
+    },
+    {
+        "v1":  "ring",
+        "v2":  "rang",
+        "tr":  "çalmak"
+    },
+    {
+        "v1":  "run",
+        "v2":  "ran",
+        "tr":  "koşmak"
+    },
+    {
+        "v1":  "say",
+        "v2":  "said",
+        "tr":  "söylemek"
+    },
+    {
+        "v1":  "see",
+        "v2":  "saw",
+        "tr":  "görmek"
+    },
+    {
+        "v1":  "sell",
+        "v2":  "sold",
+        "tr":  "satmak"
+    },
+    {
+        "v1":  "send",
+        "v2":  "sent",
+        "tr":  "göndermek"
+    },
+    {
+        "v1":  "sing",
+        "v2":  "sang",
+        "tr":  "şarkı söylemek"
+    },
+    {
+        "v1":  "sit",
+        "v2":  "sat",
+        "tr":  "oturmak"
+    },
+    {
+        "v1":  "sleep",
+        "v2":  "slept",
+        "tr":  "uyumak"
+    },
+    {
+        "v1":  "speak",
+        "v2":  "spoke",
+        "tr":  "konuşmak"
+    },
+    {
+        "v1":  "spend",
+        "v2":  "spent",
+        "tr":  "harcamak / vakit geçirmek"
+    },
+    {
+        "v1":  "stand",
+        "v2":  "stood",
+        "tr":  "ayakta durmak"
+    },
+    {
+        "v1":  "swim",
+        "v2":  "swam",
+        "tr":  "yüzmek"
+    },
+    {
+        "v1":  "take",
+        "v2":  "took",
+        "tr":  "almak"
+    },
+    {
+        "v1":  "teach",
+        "v2":  "taught",
+        "tr":  "öğretmek"
+    },
+    {
+        "v1":  "tell",
+        "v2":  "told",
+        "tr":  "anlatmak / söylemek"
+    },
+    {
+        "v1":  "think",
+        "v2":  "thought",
+        "tr":  "düşünmek"
+    },
+    {
+        "v1":  "understand",
+        "v2":  "understood",
+        "tr":  "anlamak"
+    },
+    {
+        "v1":  "wake",
+        "v2":  "woke",
+        "tr":  "uyanmak"
+    },
+    {
+        "v1":  "wear",
+        "v2":  "wore",
+        "tr":  "giymek"
+    },
+    {
+        "v1":  "win",
+        "v2":  "won",
+        "tr":  "kazanmak"
+    },
+    {
+        "v1":  "write",
+        "v2":  "wrote",
+        "tr":  "yazmak"
+    }
+]

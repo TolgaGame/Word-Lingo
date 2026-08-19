@@ -1,0 +1,113 @@
+﻿<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kelime Pratik</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- ======= ANA MENÜ ======= -->
+  <div id="mainMenu">
+    <header class="header">
+      <h1 class="header__title">🦜 Kelime Pratik</h1>
+      <p class="header__subtitle">İngilizce · Türkçe</p>
+    </header>
+
+    <div class="menu-cards">
+      <button class="menu-card" onclick="switchMode('words')">
+        <div class="menu-card__icon">🔤</div>
+        <div class="menu-card__title">Kelime Eşleştirme</div>
+        <div class="menu-card__desc">İngilizce kelimeleri Türkçe anlamlarıyla eşleştir</div>
+        <div class="menu-card__btn">Başla</div>
+      </button>
+
+      <button class="menu-card" onclick="switchMode('verbs')">
+        <div class="menu-card__icon">📚</div>
+        <div class="menu-card__title">Düzensiz Fiiller</div>
+        <div class="menu-card__desc">V1 (base form) → V2 (past simple) eşleştirmesi</div>
+        <div class="menu-card__btn">Başla</div>
+      </button>
+    </div>
+  </div>
+
+  <!-- ======= WORDS MODE ======= -->
+  <div id="modeWords" style="display:none">
+
+    <section class="stats" aria-label="İstatistikler">
+      <div class="stat-box">
+        <span class="stat-box__label">Puan</span>
+        <span class="stat-box__value stat-box__value--accent" id="w-scoreVal">0</span>
+      </div>
+      <div class="stat-box">
+        <span class="stat-box__label">Tur</span>
+        <span class="stat-box__value" id="w-roundVal">1</span>
+      </div>
+      <div class="stat-box">
+        <span class="stat-box__label">Toplam</span>
+        <span class="stat-box__value" id="w-totalVal">0</span>
+      </div>
+    </section>
+
+    <div class="progress" aria-label="İlerleme">
+      <div class="progress__info">
+        <span>İlerleme</span>
+        <span id="w-progressText">0 / …</span>
+      </div>
+      <div class="progress__track">
+        <div class="progress__fill" id="w-progressFill"></div>
+      </div>
+    </div>
+
+    <main class="board">
+      <div class="board__columns">
+        <div class="board__col" id="w-leftCol"></div>
+        <div class="board__col" id="w-rightCol"></div>
+      </div>
+    </main>
+    <div class="back-bar"><button class="back-btn" onclick="goToMenu()">← Ana Menü</button></div>
+
+  </div>
+
+  <!-- ======= VERBS MODE ======= -->
+  <div id="modeVerbs" style="display:none">
+
+    <section class="stats" aria-label="İstatistikler">
+      <div class="stat-box">
+        <span class="stat-box__label">Puan</span>
+        <span class="stat-box__value stat-box__value--accent" id="v-scoreVal">0</span>
+      </div>
+      <div class="stat-box">
+        <span class="stat-box__label">Tur</span>
+        <span class="stat-box__value" id="v-roundVal">1</span>
+      </div>
+      <div class="stat-box">
+        <span class="stat-box__label">Toplam</span>
+        <span class="stat-box__value" id="v-totalVal">0</span>
+      </div>
+    </section>
+
+    <div class="progress" aria-label="İlerleme">
+      <div class="progress__info">
+        <span>İlerleme</span>
+        <span id="v-progressText">0 / …</span>
+      </div>
+      <div class="progress__track">
+        <div class="progress__fill" id="v-progressFill"></div>
+      </div>
+    </div>
+
+    <main class="board">
+      <div class="board__columns">
+        <div class="board__col" id="v-leftCol"></div>
+        <div class="board__col" id="v-rightCol"></div>
+      </div>
+    </main>
+    <div class="back-bar"><button class="back-btn" onclick="goToMenu()">← Ana Menü</button></div>
+
+  </div>
+
+  <script src="js/app.js"></script>
+</body>
+</html>
