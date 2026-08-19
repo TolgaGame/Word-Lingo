@@ -89,10 +89,6 @@ turkish-english-vocabulary/
 
 Clone the repository:
 
-```bash
-git clone https://github.com/your-username/turkish-english-vocabulary.git
-```
-
 Open `index.html` in your browser.
 
 That's it. No installation, build process, or server is required.
