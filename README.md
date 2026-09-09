@@ -1,3 +1,6 @@
+👉 **[Try it in Browser](https://tolgagame.github.io/Word-Lingo/)**
+
+
 # Word-Lingo
 
 A simple and interactive web application for learning **2000+ English words** by matching their Turkish and English meanings.
