@@ -1,4 +1,9 @@
-# 🦜 Kelime Pratik
+### 🌍 WordLingo
+
+
+🚀 **Canlı Demo:**
+👉 [**WordLingo'yu hemen dene**](https://tolgagame.github.io/Word-Lingo/)
+
 
 İngilizce kelime ve düzensiz fiil öğrenimi için hazırlanmış, tamamen ücretsiz ve open source bir eşleştirme oyunu. Herhangi bir framework/bağımlılık gerektirmez — saf **HTML / CSS / JavaScript** ile yazılmıştır.
 
