@@ -108,6 +108,40 @@
 
   </div>
 
+  <!-- ======= FOOTER ======= -->
+  <footer class="site-footer">
+    <button class="footer-link" onclick="openModal('privacy')">Privacy Policy</button>
+    <a class="footer-link" href="https://github.com/sponsors/TolgaGame" target="_blank" rel="noopener noreferrer">Support Us</a>
+    <button class="footer-link" onclick="openModal('about')">About Us</button>
+  </footer>
+
+  <!-- ======= MODALS ======= -->
+  <div id="modalOverlay" class="modal-overlay" onclick="closeModalOnOverlay(event)">
+    <div class="modal-card">
+      <button class="modal-close" onclick="closeModal()">✕</button>
+      <div id="modalPrivacy" class="modal-content" style="display:none">
+        <h2 class="modal-title">🔒 Privacy Policy</h2>
+        <p class="modal-text">
+          Bu uygulama hiçbir kişisel verinizi toplamaz, saklamaz veya işlemez.
+          Herhangi bir hesap oluşturmanız, giriş yapmanız veya kişisel bilgi
+          paylaşmanız gerekmez. Kullanım verileriniz üçüncü taraflarla
+          paylaşılmaz ve reklam amaçlı kullanılmaz. Gizliliğiniz tamamen
+          güvence altındadır.
+        </p>
+      </div>
+      <div id="modalAbout" class="modal-content" style="display:none">
+        <h2 class="modal-title">ℹ️ About Us</h2>
+        <p class="modal-text">
+          Kelime Pratik, dil bilginizi geliştirmeniz için hazırlanmış
+          tamamen ücretsiz, abonesiz ve süresiz bir open source projedir.
+          Herhangi bir ücret ödemeden, sınırsız şekilde kullanabilirsiniz.
+          Projeye katkıda bulunmak isterseniz GitHub üzerinden bize
+          ulaşabilirsiniz.
+        </p>
+      </div>
+    </div>
+  </div>
+
   <script src="js/app.js"></script>
 </body>
 </html>

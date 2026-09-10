@@ -334,6 +334,22 @@ function shuffle(arr) {
   return a;
 }
 
+/* ================================================
+   Footer Modals (Privacy / About)
+   ================================================ */
+function openModal(which) {
+  document.getElementById('modalPrivacy').style.display = which === 'privacy' ? '' : 'none';
+  document.getElementById('modalAbout').style.display   = which === 'about'   ? '' : 'none';
+  document.getElementById('modalOverlay').classList.add('modal-overlay--open');
+}
+
+function closeModal() {
+  document.getElementById('modalOverlay').classList.remove('modal-overlay--open');
+}
+
+function closeModalOnOverlay(evt) {
+  if (evt.target.id === 'modalOverlay') closeModal();
+}
+
 /* ---- Start ---- */
 init();
-

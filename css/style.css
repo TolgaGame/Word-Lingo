@@ -365,4 +365,111 @@ body {
   color: #58cc02;
 }
 
+/* ================================================
+   Site Footer
+   ================================================ */
+.site-footer {
+  position: fixed;
+  bottom: 14px;
+  right: 18px;
+  display: flex;
+  gap: 14px;
+  align-items: center;
+  z-index: 50;
+}
 
+.footer-link {
+  background: rgba(255, 255, 255, 0.85);
+  border: none;
+  border-radius: 999px;
+  padding: 6px 14px;
+  font-size: 11px;
+  font-weight: 700;
+  color: #999;
+  cursor: pointer;
+  text-decoration: none;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  transition: color 0.15s, background 0.15s, transform 0.12s;
+}
+
+.footer-link:hover {
+  color: #58cc02;
+  background: #fff;
+  transform: translateY(-1px);
+}
+
+@media (max-width: 480px) {
+  .site-footer {
+    position: static;
+    margin-top: 30px;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+}
+
+/* ================================================
+   Info Modals (Privacy / About)
+   ================================================ */
+.modal-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.35);
+  backdrop-filter: blur(4px);
+  display: none;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+  padding: 20px;
+  animation: overlayFadeIn 0.2s ease;
+}
+
+.modal-overlay--open {
+  display: flex;
+}
+
+.modal-card {
+  position: relative;
+  background: #fff;
+  border-radius: 20px;
+  padding: 34px 30px 30px;
+  max-width: 440px;
+  width: 100%;
+  box-shadow: 0 24px 60px rgba(0, 0, 0, 0.2);
+  animation: cardPopIn 0.25s cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+
+.modal-close {
+  position: absolute;
+  top: 14px;
+  right: 14px;
+  background: #f2f2f2;
+  border: none;
+  border-radius: 50%;
+  width: 28px;
+  height: 28px;
+  font-size: 13px;
+  color: #888;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.15s, color 0.15s;
+}
+
+.modal-close:hover {
+  background: #eee;
+  color: #d93030;
+}
+
+.modal-title {
+  font-size: 20px;
+  font-weight: 800;
+  color: #333;
+  margin-bottom: 12px;
+}
+
+.modal-text {
+  font-size: 14px;
+  line-height: 1.6;
+  color: #666;
+}
